@@ -1,0 +1,25 @@
+{
+  "name": "blog_social_site",
+  "version": "1.0.0",
+  "description": "Blog site",
+  "homepage": "https://github.com/abrar1701/blog_social_site#readme",
+  "bugs": {
+    "url": "https://github.com/abrar1701/blog_social_site/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrar1701/blog_social_site.git"
+  },
+  "license": "ISC",
+  "author": "Abrar and Yuvan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}

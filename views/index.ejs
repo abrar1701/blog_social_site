@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/abrar" method="post" enctype="multipart/form-data">
-    <label for="fileUpload">Select a file to upload:</label>
-    <input type="file" id="fileUpload" name="new">
-    <input type="submit" value="Upload File">
-</form>
+    <form action="/post" method="post" enctype="multipart/form-data">
+        <input type="text" id="title" name="title">
+        <input type="text" id="desc" name="description">
+        <label for="fileUpload">Select a file to upload:</label>
+        <input type="file" id="fileUpload" name="img">
+        <input type="submit" value="Upload File">
+    </form>
 
 </body>
 </html>
